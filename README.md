@@ -6,4 +6,4 @@
 - Comman to start app `yarn dev`
 
 ## Quick Preview
-[https://healthy-web.netlify.app/](https://healthy-web.netlify.app/){:target="_blank" rel="noopener"}
+[https://healthy-web.netlify.app/](https://healthy-web.netlify.app/)
