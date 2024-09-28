@@ -137,7 +137,7 @@ const WeightPage: React.FC = () => {
     <Navigate to="/" replace />
   ) : (
     <div className="w-full py-4 px-6 overflow-scroll">
-      <h5 className="mb-5">Gain Weight Form</h5>
+      <h5 className="mb-5">Form Weight</h5>
       <div className="flex justify-center">
         <img src="assets/image_weight_form.png" className="w-1/2" />
       </div>
