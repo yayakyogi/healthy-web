@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, DatePicker, RadioTile, RadioTileGroup } from "rsuite";
 import style from "./style.module.less";
 import { useAtom } from "jotai";
-import { genderAtom, dateOfBirthAtom } from "@state/introduciton.atom";
+import { genderAtom, dateOfBirthAtom } from "@state/introduction.atom";
 import { useNavigate } from "react-router-dom";
 
 const OnBoardingPage: React.FC = () => {

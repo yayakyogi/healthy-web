@@ -1,5 +1,5 @@
 import ResultComponent from "@components/result/result.component";
-import { dateOfBirthAtom, genderAtom } from "@state/introduciton.atom";
+import { dateOfBirthAtom, genderAtom } from "@state/introduction.atom";
 import { useAtom } from "jotai";
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -59,7 +59,8 @@ const ProfilePage: React.FC = () => {
       <Message type={result[message.toLowerCase()]} className="mb-5">
         Your BMI (Body Mass Index) is <strong>{message}!</strong>
       </Message>
-      <ResultComponent label="Gender" value={gender} />
+      <h6 className="mb-3">Result</h6>
+      <ResultComponent label="Gender" value={gender.toUpperCase()} />
       <ResultComponent
         label="Date of birth"
         value={new Date(dateOfBirth as any).toLocaleDateString()}
