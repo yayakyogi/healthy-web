@@ -1,4 +1,4 @@
-import { dateOfBirthAtom, genderAtom } from "@state/introduciton.atom";
+import { dateOfBirthAtom, genderAtom } from "@state/introduction.atom";
 import { useAtom } from "jotai";
 import React, { useEffect, useRef, useState } from "react";
 import { Navigate, useLocation, useNavigate } from "react-router-dom";
